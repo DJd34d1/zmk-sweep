@@ -33,7 +33,7 @@
             combo_bksp {
             timeout-ms = <50>;
             key-positions = <8 9>;
-            bindings = <&kp BKSP>;
+            bindings = <&kp BSPC>;
         };
         
                     combo_lalt {
@@ -83,7 +83,7 @@
 		right_layer {
 		bindings = <
 		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN 
-		&kp LBKT  &kp RBKT  &kp LBRC   &kp RBRC kp PIPE         &kp LEFT &kp DOWN  &kp UP  &kp RIGHT   &kp BKSP
+		&kp LBKT  &kp RBKT  &kp LBRC &kp RBRC kp PIPE         &kp LEFT &kp DOWN  &kp UP  &kp RIGHT   &kp BSPC
 		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp QMARK &kp EQUAL &kp PIPE &kp MINUS  &kp UNDER
 					  &mo 3 &kp LCTL  				&kp SPC  &mo 2 
 		>;
